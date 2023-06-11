@@ -51,6 +51,48 @@
     <li>Postman is improvised platform to this old method.</li>
   </ul>
    
+  <h3>Module-3: First API Request</h3>
+  <ul>
+    <li>Create a workplace, (Workplace: A place where all your work, api requests, api posting, collaboration etc. happens</li>
+    <li> Create a collection (Collection: A place to organise your API Requests.) </li>
+    <li> Request your API using <kbd>GET</kbd> </li>
+  </ul>    
+<br>
+    <table align="center">
+      <th>Method Name</th>
+      <th>Operation</th>
+      <tr> 
+        <td><kbd>POST</kbd></td>
+        <td> CREATE (Send Data)</td>
+      </tr>  
+      <tr>
+        <td><kbd>GET</kbd></td>
+        <td> READ (Retrieve Data)</td>
+      </tr>
+      <tr>  
+        <td><kbd>PUT/PATCH</kbd></td>
+        <td> UPDATE (Update Data)</td>
+      </tr>
+      <tr>  
+        <td><kbd>DELETE</kbd></td>
+        <td> DELETE (Delete Data)</td>
+      </tr>
+    </table>
+  
+  <table align="center">
+    <th>Protocol</th>
+    <th>Host</th>
+    <th>Path</th>
+    <tr>
+      <td>https://</td>
+      <td>library-api.postmanlabs.com//</td>
+      <td>/books</td>
+    </tr>
+  </table>    
+
+  
+  
+  
   
   
   

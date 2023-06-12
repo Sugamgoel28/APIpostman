@@ -92,7 +92,9 @@
       <td>/books</td>
     </tr>
   </table>    
-
+<h4>QUERY PARAMETERS</h4>
+  <li>To refine/specify/filter API requests, query parameters (key-value pair) are used</li>
+  <li>Syntax: at the end of path, <kbd>&lt;key&gt;=&lt;value&gt;</kbd></li>
   
   
   

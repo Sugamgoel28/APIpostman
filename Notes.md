@@ -95,7 +95,36 @@
 <h4>QUERY PARAMETERS</h4>
   <li>To refine/specify/filter API requests, query parameters (key-value pair) are used</li>
   <li>Syntax: at the end of path, <code>&lt;key&gt;=&lt;value&gt;</code></li>
+  <i>Example: https://some-api.com/photos?orientation=landscape</i><br>
+  <i>Example: https://some-api.com/books?genre=comedy</i><br>
+  <i>Example: https://google.com/search?q=apple&q=mobile</i><br>
+  <i>Example: https://some-api.com/photos?orientation=landscape&color=blue</i><br>
   
+  <table>
+    <th>Code</th>
+    <th>Meaning</th>
+    <th>Example</th>
+    <tr>
+      <td>2XX</td>
+      <td>Success</td>
+      <td>200-OK,201-Created,204-No content</td>
+    </tr>
+    <tr>
+      <td>301</td>
+      <td>Redirection</td>
+      <td>301-Moved(path changed)</td>
+    </tr>
+    <tr>
+      <td>4XX</td>
+      <td>Client Error</td>
+      <td>400-Bad request,401-Unauthorized,403-Not permitted,404-Not found</td>
+    </tr>
+    <tr>
+      <td>5XX</td>
+      <td>Server Error</td>
+      <td>500-Internal server error, 502-Bad gateway, 504-Gateway timeout</td>
+    </tr>
+  </table>
   
   
   

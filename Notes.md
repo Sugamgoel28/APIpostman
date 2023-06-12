@@ -28,11 +28,12 @@
     </tr>
   </table>
   <img src="https://everpath-course-content.s3-accelerate.amazonaws.com/instructor%2F26fp2261340y1ukokimvca8su%2Fpublic%2F1647355689%2Fdigitalrestaurant.1647355689760.png">
-  
+  <hr>
   <h4>TYPES OF API</h4>
   <ul><li>Hardware API: When software communicates with hardware. <br> <i> Example: Phone camera interacting with OS.</i></li>
     <li>Software Library API: Code communicating with another code block. <br> <i> Example: Code Libraries </i></li>
     <li>Web API: Interface to communicate with any code base present over internet. <br> <i> Example: Chatgpt API in personal code</i></li></ul>
+  <hr>
   <h4>TYPES OF API ARCHITECTURES</h4>
   <ul>
     <li>REST API (Representational State Transfer)</li>
@@ -43,15 +44,15 @@
     <li>WebHooks</li>
   </ul>
   <p><i>NOTE: RestAPI's are used the most. In this course of Postman API, Only Restful API is discussed.</p></i>
-  
-  <h3>Introduction to PostMan</h3>
+  <hr>
+  <h3>INTRODUCTION TO POSTMAN</h3>
   <ul>
     <li>Postman: A platform to use, build and collaborate APIs</li>
     <li>Old method: API calls used <kbd>curl</kbd></li>
     <li>Postman is improvised platform to this old method.</li>
   </ul>
-   
-  <h3>Module-3: First API Request</h3>
+   <hr>
+  <h3>First API Request</h3>
   <ul>
     <li>Create a workplace, (Workplace: A place where all your work, api requests, api posting, collaboration etc. happens</li>
     <li> Create a collection (Collection: A place to organise your API Requests.) </li>
@@ -92,14 +93,15 @@
       <td>/books</td>
     </tr>
   </table>    
-<h4>QUERY PARAMETERS</h4>
+<hr>
+  <h4>QUERY PARAMETERS</h4>
   <li>To refine/specify/filter API requests, query parameters (key-value pair) are used</li>
   <li>Syntax: at the end of path, <code>&lt;key&gt;=&lt;value&gt;</code></li>
   <i>Example: https://some-api.com/photos?orientation=landscape</i><br>
   <i>Example: https://some-api.com/books?genre=comedy</i><br>
   <i>Example: https://google.com/search?q=apple&q=mobile</i><br>
   <i>Example: https://some-api.com/photos?orientation=landscape&color=blue</i><br>
-  
+  <br>
   <table>
     <th>Code</th>
     <th>Meaning</th>

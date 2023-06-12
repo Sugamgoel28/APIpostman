@@ -1,5 +1,5 @@
 <h1 align="center">Postman API Fundamentals Program Notes<h1>
-<h3>Module-1: What are APIs?</h3>
+<h3>What are APIs?</h3>
 <ul> 
   <li>API -> Application program interface, is a contract that allows code to talk to another code. </li>
   <li> Importance-> Help developers to use existing features, enterprise get faster innovation, API are product themselves.</li>
@@ -44,7 +44,7 @@
   </ul>
   <p><i>NOTE: RestAPI's are used the most. In this course of Postman API, Only Restful API is discussed.</p></i>
   
-  <h3>Module-2: Introduction to PostMan</h3>
+  <h3>Introduction to PostMan</h3>
   <ul>
     <li>Postman: A platform to use, build and collaborate APIs</li>
     <li>Old method: API calls used <kbd>curl</kbd></li>

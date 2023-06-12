@@ -55,7 +55,10 @@
   <ul>
     <li>Create a workplace, (Workplace: A place where all your work, api requests, api posting, collaboration etc. happens</li>
     <li> Create a collection (Collection: A place to organise your API Requests.) </li>
-    <li> Request your API using <kbd>GET</kbd> </li>
+    <li> Request your API using <kbd>GET</kbd>.</li>
+    <li>Client ->Makes the request.</li> 
+    <li>Request is sent over ->Network</li> 
+    <li>Server -> interprets the request and sends an appropriate response.</li>
   </ul>    
 <br>
     <table align="center">

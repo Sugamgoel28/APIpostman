@@ -127,8 +127,12 @@
       <td>500-Internal server error, 502-Bad gateway, 504-Gateway timeout</td>
     </tr>
   </table>
-  
-  
+  <h5>Variables</h5>
+  <ul>
+    <li>Used to replace a url by a variable.</li>
+    <li>This helps to keep query parameters, API keys etc. protected.</li>
+  </ul>
+<hr>  
   
   
   
